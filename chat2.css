@@ -250,6 +250,33 @@ main{
     height: auto; /* 이미지가 비율에 맞춰지도록 */
 }
 
+.chat-col > .balloon5{
+    margin-top: 0.3125rem;
+    padding: 0.7rem;
+    border: 1px solid rgb(255, 255, 255);
+    /*border-radius: 0.5rem;*/
+    border-top-right-radius: 0.9rem;
+    border-top-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 500;
+    max-width: 100%; /* 말풍선의 최대 너비를 조절하여 길이가 짧은 텍스트에 맞게 자동으로 줄어들도록 함 */
+}
+
+.pollt{
+    font-size: 0.7rem;
+    color: #b1b1b1;
+}
+
+.pollt2{
+    font-size: 0.75rem;
+    color: #b1b1b1;
+}
+
+
 
 /* 채팅 말풍선의 시간(time) 아래로 정렬 (flex item들) */
 .main-chat time{
